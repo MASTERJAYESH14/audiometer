@@ -1,0 +1,18 @@
+# audiometer.kv
+
+BoxLayout:
+    orientation: 'vertical'
+    Label:
+        text: 'Audiometer App'
+        font_size: 32
+    Label:
+        id: result_label
+        text: 'Result: '
+    Slider:
+        id: volume_slider
+        min: 0
+        max: 100
+        value: 50
+    Button:
+        text: 'Test Hearing'
+        on_press: app.test_hearing()
