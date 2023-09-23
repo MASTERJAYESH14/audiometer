@@ -15,8 +15,8 @@ for point in points:
 plt.plot(x, y, color='green', linestyle='dashed', linewidth = 3,
 		marker='o', markerfacecolor='blue', markersize=12)
 
-plt.ylim(-10,100)
-plt.xlim(250,8000)
+plt.ylim(0,100)
+plt.xlim(0,100)
 
 plt.xlabel('Frequencies (Hz)')
 plt.ylabel('Decibels (dB)')
